@@ -1,15 +1,15 @@
 .bg-wallpaper{
     background-image: url(../img/bg-galaxy_.webp);
-
-   background-size: cover;
-background-repeat: no-repeat;
+ 
     }
 
 .testo {
     padding: 15px;
+    
 }
 
 .successo {
+
     background-color: green;
     color: white;
         display: inline-block;

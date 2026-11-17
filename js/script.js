@@ -22,18 +22,22 @@ function login() {
         }
     }
 
+    
     testo.innerHTML = "Login Failed. password incorrect";
 
     messaggio.classList.remove("d-none", "successo");
     messaggio.classList.add("errore");
 }
 
+
+
+
+
 function mostraPassword() {
 
     let password = document.getElementById("password");
-
     if (password.type == "password") {
-        password.type = "text";
+    password.type = "text";
     } else {
         password.type = "password";
     }
